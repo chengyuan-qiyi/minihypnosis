@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "myCpn":"/components/myCpn/myCpn",
+    "my-event":"/components/my-event/my-event",
+    "r-tab-view":"/components/r-tab-view/r-tab-view"
+  }
+}

@@ -1,0 +1,22 @@
+
+<view class='box' bind:tap='handleTap'
+  bind:touchstart='handleTouchStart'
+  bind:touchmove="handleTouchMove">
+</view>
+
+
+<myCpn title="标题1" titleclass='red'/>
+
+<myCpn title="标题2" titleclass='blue'/>
+
+<view>计数器：{{counter}}</view>
+<my-event bind:increment='handleIncrement'/>
+
+<r-tab-view items="{{['衣服', '裤子', '鞋子']}}"
+  bind:itemClick="handleTabClick"/>
+
+<view>{{title}}</view>
+
+<navigator url='/pages/hypnosis/hypnosis?name=rickychen'>页面跳转</navigator>
+
+<navigator url='/pages/about/about' open-type="switchTab">页面跳转（about）</navigator>

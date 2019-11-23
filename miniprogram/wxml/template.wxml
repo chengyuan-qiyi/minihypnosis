@@ -1,0 +1,5 @@
+
+<template name="template_01">
+  <button size='mini'>{{btnText}}</button>
+  <text>{{content}}</text>
+</template>

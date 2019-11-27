@@ -1,0 +1,4 @@
+<!--miniprogram/pages/home/home.wxml-->
+<text>miniprogram/pages/home/home.wxml</text>
+
+<view bind:tap="handleHomeData">查询home数据</view>

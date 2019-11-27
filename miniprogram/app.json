@@ -1,14 +1,13 @@
 {
   "pages": [
-    "pages/test/test",
+    "pages/home/home",
     "pages/index/index",
-    "pages/hypnosis/hypnosis",
     "pages/about/about"
   ],
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/home/home",
         "text": "首页"
       },
       {
@@ -16,5 +15,6 @@
         "text": "关于"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap90.json"
 }
